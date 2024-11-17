@@ -72,6 +72,6 @@ To run this project locally, follow these steps:
 
 ## Acknowledgments
 
-This project was developed as part of a web development course assignment to promote social causes using interactive web technologies. 
+This project was developed as part of CodePath's Intro to Web Development (WEB101) course to promote social causes using interactive web technologies. 
 
 Thank you for checking out this project! If you have any questions or suggestions, feel free to reach out.
