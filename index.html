@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cyberbullying Prevention on Discord</title>
+    <link rel="icon" href="img/favicon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-text-container">
+                <p id="thanks-modal-content">Thank you for your support!</p>
+            </div>
+            <img src="img/celebration-image.jpg" alt="Celebration" id="modal-image">
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#news">Recent News</a></li>
+            <li><button id="theme-button">Toggle Dark Mode</button></li>
+        </ul>
+    </div>
+
+    <div class="header-container" id="home">
+        <!--- Headings --->
+        <div id="header-item">
+            <img id="header-img" src="img/favicon.png" alt="Logo">
+            <h1>Cyberbullying Prevention on Discord</h1>
+        </div>
+
+        <div id="header-item">
+            <!--- Buttons --->
+            <button class="header-button" type="button">Find Safety Resources</button>
+            <button class="header-button" type="button">Read Personal Stories</button>
+        </div>
+    </div>
+
+    <!--- Video Embed --->
+    <h2>Understanding Cyberbullying</h2>
+    <p>Watch this video to learn more about the affects of cyberbullying.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P_65PSRrSww?si=eNsVwyZ0WQzhpYZI"
+        title="Cyberbullying Video" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    <h3>Building a Safer Online Community</h3>
+
+    <div class="revealable">
+        <!--- About --->
+        <h2 id="about">About My Topic</h2>
+        <p>
+            Discord, while popular, faces challenges with online harassment and cyberbullying. Although it has
+            implemented
+            tools to combat these issues, many users still struggle to find the resources they need to stay safe. My
+            website
+            aims to centralize information and strategies for users to protect themselves and create a respectful,
+            inclusive
+            community.
+        </p>
+
+        <p class="important">Cyberbullying is a serious issue, affecting millions of users worldwide.</p>
+    </div>
+
+    <div class="revealable">
+        <!--- Impact --->
+        <h2 id="impact">Impact!</h2>
+
+        <p id="interesting">
+            Long-term effects of cyberbullying include emotional trauma, social withdrawal, and mental health issues.
+        </p>
+    </div>
+
+    <!-- First Image -->
+    <div class="revealable">
+        <h3>Where can this problem have lasting effects?</h3>
+        <figure>
+            <img src="img/cyberbullying-statistics.png" alt="Chart showing cyberbullying statistics on Discord" />
+            <figcaption>This chart highlights the percentage of Discord users who report experiencing cyberbullying.
+            </figcaption>
+        </figure>
+        <p>
+            Cyberbullying can result in long-term emotional trauma, affecting users' mental health and their ability to
+            engage online safely.
+        </p>
+    </div>
+
+    <!-- Second Image -->
+    <div class="revealable">
+        <h3>Where else can this problem have lasting effects?</h3>
+        <figure>
+            <img src="img/safe-community.png" alt="Image of Member Safety page for Community servers" />
+            <figcaption>Users collaborating to foster a safer Discord community.</figcaption>
+        </figure>
+        <p>
+            In extreme cases, cyberbullying can lead to users leaving platforms, reducing diversity and fostering toxic
+            online environments.
+        </p>
+    </div>
+
+    <div class="revealable">
+        <!--- News Section --->
+        <h2 id="news">Recent News</h2>
+
+        <!-- Article 1 -->
+        <a href="https://discord.com/safety/upholding-our-commitment-to-safety-2023-beyond" target="_blank">
+            <article>
+                <h3>Upholding Our Commitment to Safety in 2023 and Beyond</h3>
+                <p>This article discusses how Discord recently updated its safety features to help prevent cyberbullying
+                    and
+                    protect users online.</p>
+            </article>
+        </a>
+
+        <!-- Article 2 -->
+        <a href="https://techcrunch.com/2021/07/13/discord-buys-sentropy/" target="_blank">
+            <article>
+                <h3>Discord buys Sentropy, which makes AI software that fights online harassment</h3>
+                <p>A look at how artificial intelligence is being used to identify and mitigate online harassment on
+                    Discord.</p>
+            </article>
+        </a>
+    </div>
+
+    <div class="footer">
+        <a href="https://discord.com/safety" target="_blank">Discord Safety Center</a> |
+        <a href="https://support.discord.com/hc/en-us/categories/115000168351-Safety-Privacy-and-Policy"
+            target="_blank">Discord Safety, Privacy, and Policy</a>
+    </div>
+
+    <div class="revealable">
+        <!-- Petition Section -->
+        <div class="petition" id="petition">
+
+            <h2>Sign Our Petition 📢</h2>
+            <div class="petition-container">
+
+                <div class="petition-para">
+                    <p>Help us make Discord a safer, more inclusive platform for everyone. Sign our petition to urge
+                        Discord
+                        to strengthen their cyberbullying prevention tools and resources. Together, we can create a
+                        safer
+                        space where users can connect without fear of harassment.</p>
+                </div>
+
+                <div class="signatures">
+                    <p>🖊️ Alex from San Francisco supports this.</p>
+                    <p>🖊️ Priya from Austin supports this.</p>
+                    <p>🖊️ Liam from Chicago supports this.</p>
+                    <p>🖊️ Sofia from New York supports this.</p>
+                </div>
+
+            </div>
+
+            <!--- Sign Petition Form --->
+            <form id="sign-petition" title="sign-petition">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="hometown">Hometown:</label>
+                <input type="text" id="hometown" name="hometown" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </form>
+
+            <!--- Sign Now Button --->
+            <button id="sign-now-button">Sign Now</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
